@@ -107,7 +107,7 @@ void TextLCD::writeByte(int value) {
     wait_us(40);
     _e = 0;
     // wait(0.000040f);  // most instructions take 40us
-    wait_us(40)
+    wait_us(40);
     _e = 1;
 }
 
